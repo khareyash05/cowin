@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Co-Vi-Find</title>
+</head>
+<body>
+    <h1>Co-Vi-Find</h1>
+    <input type="text" id="date1"placeholder="Enter date">
+    <input type="text" id="date2"placeholder="Enter month">
+    <input type="text" id="date3"placeholder="Enter year"><br>
+    <input type="text" name="" id="pin" placeholder="Enter pincode">
+    <br><br>    
+    <button onclick="find()"class="btn btn-warning">Submit</button>
+    <br><br>
+    <table class="table table-borderless">
+        <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col" >Center</th>
+              <th scope="col">Address</th>
+              <th scope="col">Minimum Age</th>
+              <th scope="col">Slots Available</th>
+              <th scope="col">Name of Vaccine</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td id="centername0"></td>
+              <td id="centeradd0"></td>
+              <td id="age0"></td>
+              <td id="slots0"></td>
+              <td id="v0"></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td id="centername1"></td>
+              <td id="centeradd1"></td>
+              <td id="age1"></td>
+              <td id="slots1"></td>
+              <td id="v1"></td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td id="centername2"></td>
+              <td id="centeradd2"></td>
+              <td id="age2"></td>
+              <td id="slots2"></td>
+              <td id="v2"></td>
+            </tr>
+
+            <tr>
+                <th scope="row">4</th>
+                <td id="centername3"></td>
+                <td id="centeradd3"></td>
+                <td id="age3"></td>
+                <td id="slots3"></td>
+                <td id="v3"></td>
+            </tr>
+
+            <tr>
+                <th scope="row">5</th>
+                <td id="centername4"></td>
+                <td id="centeradd4"></td>
+                <td id="age4"></td>
+                <td id="slots4"></td>
+                <td id="v4"></td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td id="centername5"></td>
+                <td id="centeradd5"></td>
+                <td id="age5"></td>
+                <td id="slots5"></td>
+                <td id="v5"></td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td id="centername6"></td>
+                <td id="centeradd6"></td>
+                <td id="age6"></td>
+                <td id="slots6"></td>
+                <td id="v6"></td>
+            </tr>
+            <tr>
+                <th scope="row">8</th>
+                <td id="centername7"></td>
+                <td id="centeradd7"></td>
+                <td id="age7"></td>
+                <td id="slots7"></td>
+                <td id="v7"></td>
+            </tr>
+            <tr>
+                <th scope="row">9</th>
+                <td id="centername8"></td>
+                <td id="centeradd8"></td>
+                <td id="age8"></td>
+                <td id="slots8"></td>
+                <td id="v8"></td>
+            </tr>
+            <tr>
+                <th scope="row">10</th>
+                <td id="centername9"></td>
+                <td id="centeradd9"></td>
+                <td id="age9"></td>
+                <td id="slots9"></td>
+                <td id="v9"></td>
+            </tr>  
+        </tbody>
+    </table>
+    <!-- <h4 id="minage"></h4>
+    <h4 id="ava"></h4>
+    <h4 id="vac"></h4> -->
+    <h5 id="result"></h5>
+</body>
+<script src="./app.js"></script>
+</html>
