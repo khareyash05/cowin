@@ -20,4 +20,9 @@ function find() {
             document.getElementById("v"+i).innerHTML += b.vaccine
         }        
     })
+    document.getElementById("date1").value = ""
+    document.getElementById("date2").value = ""
+    document.getElementById("date3").value = ""
+    document.getElementById("pin").value = ""
+
 }
