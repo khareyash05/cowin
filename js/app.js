@@ -10,19 +10,18 @@ function find() {
         let a = result.centers
         for(i=0;i<10;i++){
             document.createElement("centername"+i)
-            document.getElementById("centername"+i).innerHTML += a[i].name
+            document.getElementById("centername"+i).innerHTML = a[i].name
             console.log(a[i].name)
-            document.getElementById("centeradd"+i).innerHTML += a[i].address
+            document.getElementById("centeradd"+i).innerHTML = a[i].address
             console.log(a[i].name)
             let b= a[i].sessions[0] 
-            document.getElementById("age"+i).innerHTML += b.min_age_limit
-            document.getElementById("slots"+i).innerHTML += b.available_capacity
-            document.getElementById("v"+i).innerHTML += b.vaccine
+            document.getElementById("age"+i).innerHTML = b.min_age_limit
+            document.getElementById("slots"+i).innerHTML = b.available_capacity
+            document.getElementById("v"+i).innerHTML = b.vaccine
         }        
     })
     document.getElementById("date1").value = ""
     document.getElementById("date2").value = ""
     document.getElementById("date3").value = ""
     document.getElementById("pin").value = ""
-
 }
