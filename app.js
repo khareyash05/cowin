@@ -19,10 +19,5 @@ function find() {
             document.getElementById("slots"+i).innerHTML += b.available_capacity
             document.getElementById("v"+i).innerHTML += b.vaccine
         }        
-        // a.map(obj=>{document.getElementById("minage").innerHTML += obj.address + "<br>"})
-        // a.map(obj=>{document.getElementById("ava").innerHTML += obj.address + "<br>"})
-        // a.map(obj=>{document.getElementById("vac").innerHTML += obj.address + "<br>"})
-        console.log(result.centers[0].name);
-        // document.getElementById("result").innerHTML = result.centers[0].name +"<br>"+ result.centers[1].address
     })
 }
